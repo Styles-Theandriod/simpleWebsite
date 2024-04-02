@@ -1,0 +1,9 @@
+.background{
+    background-image: url(../assets/banner_2.jpeg);
+    height:250px;
+    object-fit:cover    ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
