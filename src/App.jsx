@@ -8,11 +8,17 @@ import Main from './components/Main';
 import MovingImages from './components/MovingImages';
 import GoogleMeet from './components/GoogleMeet';
 import Eventpage from './components/Eventpage';
-
+import ThemeProvider from './components/ThemeProvider';
+import ThemedButton from './components/ThemedButton';
+import Compo from './components/Compo'
+import Count from './components/Count';
+import RequestExample from './components/RequestExample';
+import Form from './components/Form';
 function App() {
   // const text = 'hello world';
   return (
     <>
+    <ThemeProvider>
       <Navigation />
       <CarouselPage/>
       <AnotherComponent/>
@@ -21,6 +27,12 @@ function App() {
       <MovingImages/>
       <GoogleMeet/>
       <Eventpage/>
+      <Compo/>
+      <Count/>
+      <Form/>
+      <RequestExample/>
+      <ThemedButton/>
+    </ThemeProvider>
     </>
   )
 }
